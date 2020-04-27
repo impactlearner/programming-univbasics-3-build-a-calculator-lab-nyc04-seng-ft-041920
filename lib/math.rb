@@ -24,6 +24,7 @@ result
 end
 
 def square_root(num)
+  require 'cmath'
 result = cmath.sqrt(num)
 result
 end
