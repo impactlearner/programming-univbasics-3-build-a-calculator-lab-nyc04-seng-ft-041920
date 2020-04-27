@@ -25,6 +25,6 @@ end
 
 def square_root(num)
   require 'cmath'
-result = Cmath.sqrt(num)
-puts result
+result = Math.sqrt(num)
+result
 end
